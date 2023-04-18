@@ -16,12 +16,7 @@ Abra o terminal ou prompt de comando e navegue até o diretório onde está a ap
 Execute o comando python projpoo.py para rodar a aplicação.
 Siga as instruções exibidas no terminal para inserir as informações necessárias.
 Ao final, será exibido o registro de corridas e o valor total líquido recebido pelo motorista.
-Observações
-As informações fornecidas pelo usuário são validadas através de métodos específicos em cada classe.
-O valor da corrida é calculado levando em consideração a distância e o tempo rodados, com um valor base definido por km e por hora rodados.
-O valor final da corrida pode sofrer desconto de acordo com o método de pagamento escolhido.
-O registro de corridas é armazenado em um dicionário, com um ID de corrida gerado aleatoriamente como chave.
-O valor total líquido recebido por um motorista é obtido somando os valores recebidos em cada corrida registrada no dicionário.
+
 
 #Observações
 As informações fornecidas pelo usuário são validadas através de métodos específicos em cada classe.
@@ -29,6 +24,7 @@ O valor da corrida é calculado levando em consideração a distância e o tempo
 O valor final da corrida pode sofrer desconto de acordo com o método de pagamento escolhido.
 O registro de corridas é armazenado em um dicionário, com um ID de corrida gerado aleatoriamente como chave.
 O valor total líquido recebido por um motorista é obtido somando os valores recebidos em cada corrida registrada no dicionário.
+Neste projeto não são utilizados conceitos de herança e privacidade de métodos e atributos, propositalmente porque fazia parte da questão a solução sem utilização destes.
 
 
 
